@@ -14,6 +14,7 @@ export class HelloComponent {
     this.sendData.emit(this.test());
     this.sendData.emit('jig')
     this.sendData.emit(localStorage.getItem('editorLastConnected'))
+    
   }
 
   test() {
